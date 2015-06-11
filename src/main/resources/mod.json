@@ -1,0 +1,11 @@
+{
+	"main" : "org.entcore.sandbox.Sandbox",
+	"port" : 8123,
+	"app-name" : "Sandbox",
+	"app-address" : "/sandbox",
+	"app-icon" : "sandbox-large",
+	"host": "localhost",
+	"ssl" : false,
+	"auto-redeploy": false,
+	"mode": "dev"
+}

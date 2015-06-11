@@ -1,0 +1,14 @@
+    {
+      "name": "org.entcore~sandbox~1.14-SNAPSHOT",
+      "config": {
+        "main" : "org.entcore.sandbox.SandBox",
+        "port" : 8123,
+        "app-name" : "Sandbox",
+        "app-address" : "/sandbox",
+        "app-icon" : "sandbox-large",
+        "host": "${host}",
+        "ssl" : $ssl,
+        "auto-redeploy": false,
+        "mode" : "${mode}"
+      }
+    }
