@@ -1,0 +1,9 @@
+<h1>[[book.title]]</h1>
+<article bind-html="book.content" class="twelve cell"></article>
+
+<div class="row">
+	<input type="text" ng-model="book.title" />
+</div>
+<html-editor ng-model="book.content"></html-editor>
+
+<button ng-click="book.save()">Sauvegarder</button>

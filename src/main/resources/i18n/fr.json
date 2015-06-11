@@ -1,3 +1,5 @@
 {
-	"sandbox.title": "Sandbox"
+	"sandbox.title": "Sandbox",
+	"book.title": "Mes livres",
+	"book.create": "Créer un nouveau livre"
 }
